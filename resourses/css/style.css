@@ -1,0 +1,260 @@
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------general css for the whole page---------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'lato','arial','sans-serif';
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------general class which can be reused------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+
+}
+
+.long-text{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 90%;
+    line-height: 145%;
+}
+.box {
+    margin-left:18px;
+}
+
+.box p{
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 145%;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------navigation bar-------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    list-style: none;
+     display: inline-block;
+}
+
+.main-nav li a:link,.main-nav li a:visited{
+    padding: 7px 0px;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 350;
+    border-bottom: 1px solid transprent;
+    transition: border 0.5s;
+}
+
+.main-nav li a:hover,.main-nav li a:active{
+    border-bottom: 1px solid #f27b30;
+
+
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------buttons--------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+
+.btn:link,
+.btn:visited{
+    display: inline;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+    color: #FFF;
+    border:1px solid #f27b30;
+    transition: background-color 0.5s, border 0.2s, color 0.2s;
+
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #f27b30;
+    color: #FFF;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+
+    color: #f27b30;
+}
+
+.btn:hover,
+.btn:active{
+    background-color:#c46428;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #c46428;
+    color: #fff;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------headers as hero test-------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(imgs/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------headers--------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+h1,
+h2,
+h3{
+
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    line-height: 145%;
+}
+
+h1{
+    letter-spacing: 1px;
+    margin: 0px;
+    color: #FFF;
+    font-size: 250%;
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 180%;
+}
+
+h2:after{
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: #f27b30;
+    margin: 30px auto;
+    width: 20%;
+}
+
+h3{
+    font-weight: 350;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------icons----------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+
+
+ion-icon{
+    color: #f27b30;
+    font-size: 400%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.meals-list {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-list li{
+    display: block;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    background-color: #000;
+
+}
+.meal-photo{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
+    opacity: 0.7;
+    transition: transform 0.7s ,opacity 0.7s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.meals-section {
+    padding-top: 50px;
+}
+
+
+.how {
+    text-align: center;
+}
+
+
+
+.iphone{
+    width: 50%;
+    height: auto;
+}
+
