@@ -42,6 +42,7 @@ html{
     margin-left:18px;
 }
 
+
 .box p{
     font-weight: 300;
     letter-spacing: 1px;
@@ -141,6 +142,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 
@@ -200,14 +202,24 @@ h3{
 
 
 
-ion-icon{
+.icon{
     color: #f27b30;
     font-size: 400%;
     display: block;
     margin-bottom: 10px;
+    
+    --ionicon-stroke-width: 25 px;
 }
 
-
+.icon2{
+   color: #f27b30;
+    font-size: 150%;
+    display:inline-block;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    --ionicon-stroke-width: 25 px;
+}
 
 .meals-list {
     list-style: none;
@@ -253,8 +265,130 @@ ion-icon{
 
 
 
-.iphone{
-    width: 50%;
-    height: auto;
+.iPhone{
+    width: 40%;
 }
 
+.steps-box{
+  margin-top: 30px;
+}
+
+.steps-box:first-child{
+  text-align: right;
+  padding-right: 3%;
+}
+.steps-box:last-child{
+  padding-left: 3%;
+  float: left;
+}
+
+.steps-box:last-of-type{
+    margin-bottom: 80px;
+}
+
+.work-steps{
+  margin-top:50px;
+}
+.work-steps div{
+  color: #f27b30;
+  border-radius: 50%;
+  border: 2px solid;
+  height: 50px;
+  width: 50px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  font-size: 150%;
+  margin-right: 20px;
+}
+
+.clearfix{zoom:1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.btn-app img{
+    height: 50px;
+    margin-top: 50px;
+}
+
+.city-features{
+
+
+}
+
+.city{
+    padding-left:18px;
+    margin: 0px;
+}
+.city img{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    display: inline-block;
+
+}
+
+.t{
+    width: 100%;
+    
+}
+
+.a:link,
+.a:visited{
+   text-decoration: none;
+    color: #f27b30;
+    transition: color 0.7s,border 0.5;
+    border-bottom: 2px solid #f27b30;
+}
+
+.a:hover,
+.a:active{
+    border-bottom: 0px;
+    color: #000;
+}
+.testimonials{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.67)),url(/resourses/imgs/back-customers.jpg);
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+blockquote:before{
+    content:"\201C";
+    font-size: 400%;
+    position: absolute;
+    top: -45px;
+    left: -25px;
+    display: block;
+        
+}
+
+blockquote{
+    font-family:lato;
+    font-weight: 350;
+    position: relative;
+}
+
+blockquote:after{
+    content:"\201D";
+    font-size: 400%;
+    vertical-align: bottom;
+    display: block;
+    text-align: right;
+}
+
+cite{
+    margin-top: 20px;
+    display: block;
+}
+cite img{
+    width:50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
