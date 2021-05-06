@@ -127,7 +127,7 @@
             </div>
 
         </section>
-        <section>
+        <section class="cities">
             <div class="row">
                 <div>
                     <h2>We're currently in these cities</h2>
@@ -241,16 +241,162 @@
                 <h2>Start eating healthy today</h2>
             </div>
             <div class="row">
-                <div class="span-1-of-3">
-                    <div class="">
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Premium</h3>
+                            <p class="plan-price">399$ <span> &nbsp; /month</span></p>
+                            <p class="plan-meal-price">That’s only 13.30$ per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>1 meal every day</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Order 24/7</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Access to newest creations</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">sign up</a>
+                        </div>
                     </div>
-                    <div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div >
+                            <h3>Pro</h3>
+                            <p class="plan-price">149$<span> &nbsp; /month</span></p>
+                            <p class="plan-meal-price">That’s only 14.90$ per meal</p>
+                        </div>
+                        <div>
+                             <ul>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>1 meal every day</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Order 24/7</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Access to newest creations</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">sign up</a>
+                        </div>
                     </div>
-                    <div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div >
+                            <h3>Starter</h3>
+                            <p class="plan-price">19$<span>&nbsp;/month</span></p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div>
+                             <ul>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>1 meal every day</li>
+                                <li><ion-icon name="checkmark-outline" class="icon3"></ion-icon>Order 24/7</li>
+                                <li><ion-icon name="close-outline" class="icon3"></ion-icon>Access to newest creations</li>
+                                <li><ion-icon name="checkmark-outline"class="icon3"></ion-icon>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">sign up</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="msg">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">E-mail</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="your email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us" >
+                                <option value="newspaper" selected>Newspaper</option>
+                                <option value="magazine">Magazine</option>
+                                <option value="friends">Friends</option>
+                                <option value="ads">Advertising</option>
+                                <option value="google">Google</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="newsletter">Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="newsletter" id="newsletter" >Do you want a newsletter
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="msg"> say us somthing</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="msg" id="msg" placeholder="let us know abt ourselves"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="send-it">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <nav>
+                        <ul class="footer-nav">
+                            <li><a href="#" >About us</a></li>
+                            <li><a href="#" >Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">IOS app</a></li>
+                            <li><a href="#">Android app</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col span-1-of-2">
+                    <nav>
+                        <ul class="social-link">
+                            <li><a href="#">facebook</a></li>
+                            <li><a href="#">twitter</a></li>
+                            <li><a href="#">google+ </a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <p class="copy">
+                    copyright &copy; 2015 all rights reserved
+                </p>
+            </div>
+        </footer>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     </body>
 </html>
