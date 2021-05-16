@@ -30,6 +30,8 @@ html{
 
 }
 
+
+
 .long-text{
     width: 70%;
     margin-left: auto;
@@ -39,7 +41,8 @@ html{
     line-height: 145%;
 }
 .box {
-    margin-left:18px;
+    
+    padding-left:20px;
 }
 
 
@@ -158,6 +161,7 @@ header{
     left:50%;
     transform: translate(-50%,-50%);
 }
+
 
 /*----------------------------------------------------------------------------------------------------*/
 /*-------------------------------------headers--------------------------------------------------------*/
@@ -324,6 +328,7 @@ h3{
 .btn-app img{
     height: 50px;
     margin-top: 50px;
+    
 }
 
 .city-features{
